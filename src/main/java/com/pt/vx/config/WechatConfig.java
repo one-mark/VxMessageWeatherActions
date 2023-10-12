@@ -38,6 +38,18 @@ public class WechatConfig {
      */
     static {
         userList.add(getUser(
+                "oQXD66dkbMAlJtoC4dHXQ9OScIUg", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "E5LsLUNp3qXHndnd79ID23dKITWSecr8v8LHxkM9vY0", //要给这个人发送的模板ID
+                "小胖宝", //咋称呼这个人
+                "黑龙江省黑河市爱辉区", //这个人的详细地址
+                "黑河", //这个人在的城市
+                new BirthDay(1999,2,15,true,false,"小胖宝生日快乐！！"),
+                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
+                new BirthDay(2023,5,26,false,true),
+                new BirthDay(2023,5,26,false,true)
+        ));
+
+        userList.add(getUser(
                 "oQXD66YIVP4zB8RBsTSygfNZlbhM", //扫码关注你的测试号以后，测试平台会出现TA的微信号
                 "E5LsLUNp3qXHndnd79ID23dKITWSecr8v8LHxkM9vY0", //要给这个人发送的模板ID
                 "小胖宝", //咋称呼这个人
@@ -46,19 +58,7 @@ public class WechatConfig {
                 new BirthDay(1999,2,15,true,false,"小胖宝生日快乐！！"),
                 new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
                 new BirthDay(2023,5,26,false,true),
-                new BirthDay(2023,10,26,false,true)
-        ));
-
-        userList.add(getUser(
-                "这个人扫码后的微信号",
-                "微信消息模板ID",
-                "这个人的称呼",
-                "江苏省南京市玄武区",
-                "南京",
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+                new BirthDay(2023,5,26,false,true)
         ));
 
 
