@@ -38,7 +38,7 @@ public class WechatConfig {
      */
     static {
         userList.add(getUser(
-                "oQXD66dkbMAlJtoC4dHXQ9OScIUg1", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "oQXD66dkbMAlJtoC4dHXQ9OScIUg", //扫码关注你的测试号以后，测试平台会出现TA的微信号
                 "E5LsLUNp3qXHndnd79ID23dKITWSecr8v8LHxkM9vY0", //要给这个人发送的模板ID
                 "小胖宝", //咋称呼这个人
                 "黑龙江省黑河市爱辉区", //这个人的详细地址
