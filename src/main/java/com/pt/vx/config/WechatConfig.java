@@ -45,7 +45,7 @@ public class WechatConfig {
                 "黑河", //这个人在的城市
                 new BirthDay(1999,2,15,true,false,"小胖宝生日快乐！！"),
                 new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(2020,7,8,true,true),
+                new BirthDay(2023,5,26,false,true),
                 new BirthDay(2020,7,8,true,false,"周年快乐！！！")
         ));
 
