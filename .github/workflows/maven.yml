@@ -6,7 +6,8 @@ name: Java CI with Maven
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '30 2 * * *'
+    # 下面是国际时间，换算成北京时间加8，比如2点半，对应北京时间是10点半，23点半，对应早上7点半
+    - cron:  '30 23 * * *'
 
 jobs:
   build:
